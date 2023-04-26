@@ -1,0 +1,2747 @@
+// 20230320214422
+// https://www.swiggy.com/dapi/menu/pl?page-type=REGULAR_MENU&complete-menu=true&lat=8.5685708&lng=76.87313329999999&restaurantId=92846&submitAction=ENTER
+
+{
+  "statusCode": 0,
+  "data": {
+    "statusMessage": "done successfully",
+    "cards": [
+      {
+        "card": {
+          "card": {
+            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+            "info": {
+              "id": "92846",
+              "name": "Bake World Restaurant",
+              "city": "Thiruvananthapuram",
+              "slugs": {
+                "restaurant": "bake-world-restaurant-kazhakootam-technopark",
+                "city": "thiruvananthapuram"
+              },
+              "uniqueId": "88b226a9-6c1f-427b-89eb-3d51e17b5925",
+              "cloudinaryImageId": "khr7boawnkmdaeymwzou",
+              "locality": "Technopark",
+              "areaName": "Kulathoor",
+              "costForTwo": "25000",
+              "costForTwoMessage": "₹250 for two",
+              "cuisines": [
+                "Chinese",
+                "North Indian"
+              ],
+              "avgRating": 4.1,
+              "feeDetails": {
+                "restaurantId": "92846",
+                "fees": [
+                  {
+                    "name": "distance",
+                    "fee": 2200
+                  },
+                  {
+                    "name": "time"
+                  },
+                  {
+                    "name": "special"
+                  }
+                ],
+                "totalFee": 2200,
+                "icon": "v1648635511/Delivery_fee_new_cjxumu",
+                "message": "0-3 kms | ₹22 Delivery fee will apply"
+              },
+              "parentId": "20690",
+              "avgRatingString": "4.1",
+              "totalRatingsString": "5K+ ratings",
+              "sla": {
+                "restaurantId": "92846",
+                "deliveryTime": 16,
+                "minDeliveryTime": 16,
+                "maxDeliveryTime": 16,
+                "lastMileTravel": 1.5,
+                "serviceability": "SERVICEABLE",
+                "stressFactor": 0.8538796,
+                "rainMode": "RAIN_MODE_NONE",
+                "longDistance": "LONG_DISTANCE_NOT_LONG_DISTANCE",
+                "zoneId": 729,
+                "slaString": "16 MINS",
+                "lastMileTravelString": "1.5 km",
+                "iconType": "ICON_TYPE_EMPTY"
+              },
+              "availability": {
+                "nextCloseTime": "2023-03-20 23:00:00",
+                "visibility": true,
+                "opened": true,
+                "restaurantClosedMeta": {
+                  
+                }
+              },
+              "aggregatedDiscountInfo": {
+                "shortDescriptionList": [
+                  {
+                    "discountType": "Percentage",
+                    "operationType": "RESTAURANT"
+                  },
+                  {
+                    "discountType": "Flat",
+                    "operationType": "RESTAURANT"
+                  }
+                ],
+                "descriptionList": [
+                  {
+                    "meta": "20% off up to ₹120 | Use FEDERALCC Above ₹249",
+                    "discountType": "Percentage",
+                    "operationType": "RESTAURANT"
+                  },
+                  {
+                    "meta": "Flat ₹100 off | Use AUDC100 Above ₹299",
+                    "discountType": "Flat",
+                    "operationType": "RESTAURANT"
+                  }
+                ],
+                "visible": true
+              },
+              "badges": {
+                
+              },
+              "slugString": "bake-world-restaurant-kazhakootam-technopark",
+              "isOpen": true,
+              "labels": [
+                {
+                  "title": "Timings",
+                  "message": "null"
+                },
+                {
+                  "title": "Address",
+                  "message": "MH Plaza, Opp IOC Pump,, Vadakkumbhagam, Kazhakkoottam, Kerala 695301, India"
+                },
+                {
+                  "title": "Cuisines",
+                  "message": "Chinese,North Indian"
+                }
+              ],
+              "totalRatings": 5000,
+              "aggregatedDiscountInfoV2": {
+                "shortDescriptionList": [
+                  {
+                    "discountType": "Percentage",
+                    "operationType": "RESTAURANT"
+                  },
+                  {
+                    "discountType": "Flat",
+                    "operationType": "RESTAURANT"
+                  }
+                ],
+                "descriptionList": [
+                  {
+                    "meta": "20% off up to ₹120 | Use FEDERALCC Above ₹249",
+                    "discountType": "Percentage",
+                    "operationType": "RESTAURANT"
+                  },
+                  {
+                    "meta": "Flat ₹100 off | Use AUDC100 Above ₹299",
+                    "discountType": "Flat",
+                    "operationType": "RESTAURANT"
+                  }
+                ],
+                "couponDetailsCta": "View coupon details"
+              },
+              "type": "F",
+              "headerBanner": {
+                "url": "swiggy://webview?is_external=false&webview_url=https://www.swiggy.com/restaurant-info/92846"
+              },
+              "expectationNotifiers": [
+                {
+                  "text": "0-3 kms | ₹22 Delivery fee will apply",
+                  "icon": {
+                    "imageId": "v1648635511/Delivery_fee_new_cjxumu"
+                  },
+                  "popup": {
+                    "cta": {
+                      
+                    }
+                  },
+                  "type": "DISTANCE_FEE_NON_FOOD_LM",
+                  "enrichedText": "<b>0-3 kms</b> | ₹22 Delivery fee will apply",
+                  "halfCardPopup": {
+                    "halfCardPopupHeader": {
+                      
+                    }
+                  }
+                }
+              ],
+              "ratingSlab": "RATING_SLAB_5",
+              "orderabilityCommunication": {
+                "title": {
+                  
+                },
+                "subTitle": {
+                  
+                },
+                "message": {
+                  
+                },
+                "customIcon": {
+                  
+                }
+              },
+              "hasBestsellerItems": true,
+              "cartOrderabilityNudgeBanner": {
+                "parameters": {
+                  
+                },
+                "presentation": {
+                  
+                }
+              }
+            },
+            "analytics": {
+              
+            }
+          },
+          "relevance": {
+            "type": "RELEVANCE_TYPE_CHECK_ORDERABILITY_ON_ITEM_ADD",
+            "sectionId": "POP_UP_CROUTON_MENU"
+          }
+        }
+      },
+      {
+        "card": {
+          "card": {
+            "@type": "type.googleapis.com/swiggy.gandalf.widgets.v2.GridWidget",
+            "layout": {
+              "rows": 1,
+              "columns": 2,
+              "horizontalScrollEnabled": true,
+              "itemSpacing": 12,
+              "lineSpacing": 10,
+              "widgetPadding": {
+                
+              },
+              "containerStyle": {
+                "containerPadding": {
+                  "left": 10,
+                  "right": 10,
+                  "bottom": 16
+                }
+              },
+              "scrollBar": {
+                
+              }
+            },
+            "id": "offerCollectionWidget_UX4",
+            "gridElements": {
+              "infoWithStyle": {
+                "@type": "type.googleapis.com/swiggy.presentation.food.v2.OfferInfoWithStyle",
+                "offers": [
+                  {
+                    "info": {
+                      "header": "20% OFF UPTO ₹120",
+                      "offerTagColor": "#E46D47",
+                      "logoBottom": "rng/md/ads/production/1acdb97aadcb61b323307845bda86535",
+                      "offerIds": [
+                        "ff00ff8d-93ef-4407-b201-1906afb9c1b6"
+                      ],
+                      "expiryTime": "1970-01-01T00:00:00Z",
+                      "couponCode": "USE FEDERALCC",
+                      "description": "ABOVE ₹249",
+                      "offerType": "offers",
+                      "restId": "92846",
+                      "offerLogo": "rng/md/ads/production/1acdb97aadcb61b323307845bda86535",
+                      "descriptionTextColor": "#7302060C"
+                    },
+                    "cta": {
+                      "type": "OFFER_HALF_CARD"
+                    }
+                  },
+                  {
+                    "info": {
+                      "header": "FLAT ₹100 OFF",
+                      "offerTagColor": "#E46D47",
+                      "logoBottom": "rng/md/ads/production/3a937ddacd3adb70c4543c4895213123",
+                      "offerIds": [
+                        "f885879b-2148-4840-a1d1-f3610b5c809d"
+                      ],
+                      "expiryTime": "1970-01-01T00:00:00Z",
+                      "couponCode": "USE AUDC100",
+                      "description": "ABOVE ₹299",
+                      "offerType": "offers",
+                      "restId": "92846",
+                      "offerLogo": "rng/md/ads/production/3a937ddacd3adb70c4543c4895213123",
+                      "descriptionTextColor": "#7302060C"
+                    },
+                    "cta": {
+                      "type": "OFFER_HALF_CARD"
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        }
+      },
+      {
+        "groupedCard": {
+          "cardGroupMap": {
+            "REGULAR": {
+              "cards": [
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.MenuVegFilterAndBadge",
+                      "badges": {
+                        
+                      },
+                      "vegOnlyDetails": {
+                        "imageId": "AutoVegOnly_qkjowj",
+                        "title": "Showing only vegetarian options.",
+                        "description": "Tap on the VEG ONLY button to turn off the setting"
+                      }
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                      "title": "Recommended",
+                      "itemCards": [
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "26149032",
+                              "name": "Chicken Shawayi(1 Pc)",
+                              "category": "Grill Zone",
+                              "description": "Medium Spicy | An arabic delicacy of chicken which is a bit low on spices. The taste of this dish is from the special recipe of masala marinated over the chicken pieces.",
+                              "imageId": "i1k7o2jv30iaagnmyuua",
+                              "inStock": 1,
+                              "price": 16500,
+                              "variants": {
+                                "variantGroups": [
+                                  {
+                                    "groupId": "2387559",
+                                    "name": "Quantity",
+                                    "variations": [
+                                      {
+                                        "name": "Half",
+                                        "price": 10000,
+                                        "id": "8114330",
+                                        "inStock": 1,
+                                        "isEnabled": 1
+                                      },
+                                      {
+                                        "name": "Full",
+                                        "price": 33000,
+                                        "default": 1,
+                                        "id": "8114331",
+                                        "inStock": 1,
+                                        "isEnabled": 1
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              "variantsV2": {
+                                
+                              },
+                              "itemAttribute": {
+                                "vegClassifier": "NONVEG",
+                                "spiceLevel": "MEDIUMSPICY"
+                              },
+                              "ribbon": {
+                                "text": "Bestseller",
+                                "textColor": "#ffffff",
+                                "topBackgroundColor": "#d53d4c",
+                                "bottomBackgroundColor": "#b02331"
+                              },
+                              "showImage": true,
+                              "itemBadge": {
+                                
+                              },
+                              "badgesV2": {
+                                
+                              },
+                              "isBestseller": true,
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "3.5",
+                                  "ratingCount": "42 ratings",
+                                  "ratingCountV2": "42"
+                                }
+                              }
+                            },
+                            "analytics": {
+                              
+                            },
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "26149047",
+                              "name": "Chicken Al Faham(1 Pc)",
+                              "category": "Grill Zone",
+                              "description": "Medium Spicy | Dry | Comes with KUBOOS , CHUTNEY | A delightfully wholesome combo of succulent spicy and juicy full chicken alfaham; | Served with bone/boneless |",
+                              "imageId": "pzirzwctjwulxkj5gplc",
+                              "inStock": 1,
+                              "price": 15000,
+                              "variants": {
+                                "variantGroups": [
+                                  {
+                                    "groupId": "2387561",
+                                    "name": "Quantity",
+                                    "variations": [
+                                      {
+                                        "name": "Half",
+                                        "price": 10000,
+                                        "id": "8114335",
+                                        "inStock": 1,
+                                        "isEnabled": 1
+                                      },
+                                      {
+                                        "name": "Full",
+                                        "price": 33000,
+                                        "default": 1,
+                                        "id": "8114336",
+                                        "inStock": 1,
+                                        "isEnabled": 1
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              "variantsV2": {
+                                
+                              },
+                              "itemAttribute": {
+                                "vegClassifier": "NONVEG",
+                                "spiceLevel": "MEDIUMSPICY",
+                                "accompaniments": "Served with KUBOOS and CHUTNEY"
+                              },
+                              "ribbon": {
+                                "text": "Bestseller",
+                                "textColor": "#ffffff",
+                                "topBackgroundColor": "#d53d4c",
+                                "bottomBackgroundColor": "#b02331"
+                              },
+                              "showImage": true,
+                              "itemBadge": {
+                                
+                              },
+                              "badgesV2": {
+                                
+                              },
+                              "isBestseller": true,
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "3.9",
+                                  "ratingCount": "48 ratings",
+                                  "ratingCountV2": "48"
+                                }
+                              }
+                            },
+                            "analytics": {
+                              
+                            },
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "60770354",
+                              "name": "White Forest Fresh Cream Cake - 1 Kg",
+                              "category": "Fresh Cream Cakes",
+                              "imageId": "apduzhbqp9lzhokoalwf",
+                              "inStock": 1,
+                              "price": 58000,
+                              "variants": {
+                                
+                              },
+                              "variantsV2": {
+                                
+                              },
+                              "itemAttribute": {
+                                "vegClassifier": "EGG"
+                              },
+                              "ribbon": {
+                                
+                              },
+                              "showImage": true,
+                              "itemBadge": {
+                                
+                              },
+                              "badgesV2": {
+                                
+                              },
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.3",
+                                  "ratingCount": "3 ratings",
+                                  "ratingCountV2": "3"
+                                }
+                              }
+                            },
+                            "analytics": {
+                              
+                            },
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "60788199",
+                              "name": "Black Forest Fresh Cream Cake - 1 Kg",
+                              "category": "Fresh Cream Cakes",
+                              "description": "Layers of chocolate sponge cake sandwiched between whipped cream and rich cherry filling.",
+                              "imageId": "led1pjcx5xwdrhawsfxa",
+                              "inStock": 1,
+                              "price": 58000,
+                              "variants": {
+                                
+                              },
+                              "variantsV2": {
+                                
+                              },
+                              "itemAttribute": {
+                                "vegClassifier": "EGG"
+                              },
+                              "ribbon": {
+                                "text": "Bestseller",
+                                "textColor": "#ffffff",
+                                "topBackgroundColor": "#d53d4c",
+                                "bottomBackgroundColor": "#b02331"
+                              },
+                              "showImage": true,
+                              "itemBadge": {
+                                
+                              },
+                              "badgesV2": {
+                                
+                              },
+                              "isBestseller": true,
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.8",
+                                  "ratingCount": "8 ratings",
+                                  "ratingCountV2": "8"
+                                }
+                              }
+                            },
+                            "analytics": {
+                              
+                            },
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "68802670",
+                              "name": "Butterscotch Fresh Cream Cake - 1 Kg",
+                              "category": "Fresh Cream Cakes",
+                              "description": "Serves 1 | 1Kg",
+                              "imageId": "jhi8vneewvtafx5nbh2w",
+                              "inStock": 1,
+                              "price": 65000,
+                              "variants": {
+                                
+                              },
+                              "variantsV2": {
+                                
+                              },
+                              "itemAttribute": {
+                                "vegClassifier": "EGG",
+                                "portionSize": "Serves 1"
+                              },
+                              "ribbon": {
+                                
+                              },
+                              "showImage": true,
+                              "itemBadge": {
+                                
+                              },
+                              "badgesV2": {
+                                
+                              },
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "2.7",
+                                  "ratingCount": "3 ratings",
+                                  "ratingCountV2": "3"
+                                }
+                              }
+                            },
+                            "analytics": {
+                              
+                            },
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "68802672",
+                              "name": "Royal Butterscotch Fresh Cream Cake - 1 Kg",
+                              "category": "Fresh Cream Cakes",
+                              "description": "Serves 1 | 1pc",
+                              "imageId": "wrf3ickur4woftlp5mic",
+                              "inStock": 1,
+                              "price": 70000,
+                              "variants": {
+                                
+                              },
+                              "variantsV2": {
+                                
+                              },
+                              "itemAttribute": {
+                                "vegClassifier": "EGG",
+                                "portionSize": "Serves 1"
+                              },
+                              "ribbon": {
+                                
+                              },
+                              "showImage": true,
+                              "itemBadge": {
+                                
+                              },
+                              "badgesV2": {
+                                
+                              },
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "3.8",
+                                  "ratingCount": "6 ratings",
+                                  "ratingCountV2": "6"
+                                }
+                              }
+                            },
+                            "analytics": {
+                              
+                            },
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "68802674",
+                              "name": "Vancho Fresh Cream Cake - 1 Kg",
+                              "category": "Fresh Cream Cakes",
+                              "imageId": "nqbdhlpwlgbx5frqx5xd",
+                              "inStock": 1,
+                              "price": 87000,
+                              "variants": {
+                                
+                              },
+                              "variantsV2": {
+                                
+                              },
+                              "itemAttribute": {
+                                "vegClassifier": "EGG"
+                              },
+                              "ribbon": {
+                                
+                              },
+                              "showImage": true,
+                              "itemBadge": {
+                                
+                              },
+                              "badgesV2": {
+                                
+                              },
+                              "ratings": {
+                                "aggregatedRating": {
+                                  
+                                }
+                              }
+                            },
+                            "analytics": {
+                              
+                            },
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "68802675",
+                              "name": "Swiss Chocolate Fresh Cream Cake - 1 Kg",
+                              "category": "Fresh Cream Cakes",
+                              "description": "Serves 1 | 1Kg",
+                              "imageId": "bdgxdf4yeiskwpsdomcf",
+                              "inStock": 1,
+                              "price": 70000,
+                              "variants": {
+                                
+                              },
+                              "variantsV2": {
+                                
+                              },
+                              "itemAttribute": {
+                                "vegClassifier": "EGG",
+                                "portionSize": "Serves 1"
+                              },
+                              "ribbon": {
+                                
+                              },
+                              "showImage": true,
+                              "itemBadge": {
+                                
+                              },
+                              "badgesV2": {
+                                
+                              },
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.7",
+                                  "ratingCount": "3 ratings",
+                                  "ratingCountV2": "3"
+                                }
+                              }
+                            },
+                            "analytics": {
+                              
+                            },
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "68802677",
+                              "name": "Choco Truffle Fresh Cream Cake - 1 Kg",
+                              "category": "Fresh Cream Cakes",
+                              "description": "Serves 1 | 1Kg",
+                              "imageId": "uscsutgjnxcqhqurmfp6",
+                              "inStock": 1,
+                              "price": 80000,
+                              "variants": {
+                                
+                              },
+                              "variantsV2": {
+                                
+                              },
+                              "itemAttribute": {
+                                "vegClassifier": "EGG",
+                                "portionSize": "Serves 1"
+                              },
+                              "ribbon": {
+                                
+                              },
+                              "showImage": true,
+                              "itemBadge": {
+                                
+                              },
+                              "badgesV2": {
+                                
+                              },
+                              "ratings": {
+                                "aggregatedRating": {
+                                  
+                                }
+                              }
+                            },
+                            "analytics": {
+                              
+                            },
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "68799125",
+                              "name": "Honey Almond Pastry ( 1 Pc )",
+                              "category": "Pastries",
+                              "imageId": "tazulrtpgveeulq3odqi",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 6500,
+                              "variants": {
+                                
+                              },
+                              "variantsV2": {
+                                
+                              },
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+                                
+                              },
+                              "showImage": true,
+                              "itemBadge": {
+                                
+                              },
+                              "badgesV2": {
+                                
+                              },
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.8",
+                                  "ratingCount": "4 ratings",
+                                  "ratingCountV2": "4"
+                                }
+                              }
+                            },
+                            "analytics": {
+                              
+                            },
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "68799193",
+                              "name": "Choco Chip Pastry",
+                              "category": "Pastries",
+                              "description": "Serves 1 | 1pc",
+                              "imageId": "akl85bmgmfgiipdviq1f",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 6500,
+                              "variants": {
+                                
+                              },
+                              "variantsV2": {
+                                
+                              },
+                              "itemAttribute": {
+                                "vegClassifier": "VEG",
+                                "portionSize": "Serves 1"
+                              },
+                              "ribbon": {
+                                "text": "Bestseller",
+                                "textColor": "#ffffff",
+                                "topBackgroundColor": "#d53d4c",
+                                "bottomBackgroundColor": "#b02331"
+                              },
+                              "showImage": true,
+                              "itemBadge": {
+                                
+                              },
+                              "badgesV2": {
+                                
+                              },
+                              "isBestseller": true,
+                              "ratings": {
+                                "aggregatedRating": {
+                                  
+                                }
+                              }
+                            },
+                            "analytics": {
+                              
+                            },
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "68802686",
+                              "name": "Rainbow Pastry",
+                              "category": "Pastries",
+                              "description": "Serves 1 | 1pc",
+                              "imageId": "wzo3tibuudiy7geetv1i",
+                              "inStock": 1,
+                              "price": 12000,
+                              "variants": {
+                                
+                              },
+                              "variantsV2": {
+                                
+                              },
+                              "itemAttribute": {
+                                "vegClassifier": "EGG",
+                                "portionSize": "Serves 1"
+                              },
+                              "ribbon": {
+                                
+                              },
+                              "showImage": true,
+                              "itemBadge": {
+                                
+                              },
+                              "badgesV2": {
+                                
+                              },
+                              "ratings": {
+                                "aggregatedRating": {
+                                  
+                                }
+                              }
+                            },
+                            "analytics": {
+                              
+                            },
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "68802688",
+                              "name": "Red Velvet Pastry",
+                              "category": "Pastries",
+                              "description": "Serves 1 | 1pc",
+                              "imageId": "fngi7d08eas9vnox9yhr",
+                              "inStock": 1,
+                              "price": 8000,
+                              "variants": {
+                                
+                              },
+                              "variantsV2": {
+                                
+                              },
+                              "itemAttribute": {
+                                "vegClassifier": "EGG",
+                                "portionSize": "Serves 1"
+                              },
+                              "ribbon": {
+                                
+                              },
+                              "showImage": true,
+                              "itemBadge": {
+                                
+                              },
+                              "badgesV2": {
+                                
+                              },
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.7",
+                                  "ratingCount": "3 ratings",
+                                  "ratingCountV2": "3"
+                                }
+                              }
+                            },
+                            "analytics": {
+                              
+                            },
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "68802685",
+                              "name": "Choco Truffle Pastry (1 Pc )",
+                              "category": "Pastries",
+                              "imageId": "hezsdezf8vg5ckqghcil",
+                              "inStock": 1,
+                              "price": 7500,
+                              "variants": {
+                                
+                              },
+                              "variantsV2": {
+                                
+                              },
+                              "itemAttribute": {
+                                "vegClassifier": "EGG"
+                              },
+                              "ribbon": {
+                                
+                              },
+                              "showImage": true,
+                              "itemBadge": {
+                                
+                              },
+                              "badgesV2": {
+                                
+                              },
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.0",
+                                  "ratingCount": "13 ratings",
+                                  "ratingCountV2": "13"
+                                }
+                              }
+                            },
+                            "analytics": {
+                              
+                            },
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "68802691",
+                              "name": "Black Forest Pastry",
+                              "category": "Pastries",
+                              "description": "Serves 1 | 1pc",
+                              "imageId": "bbrppujy4mlcxbyn5ysh",
+                              "inStock": 1,
+                              "price": 6000,
+                              "variants": {
+                                
+                              },
+                              "variantsV2": {
+                                
+                              },
+                              "itemAttribute": {
+                                "vegClassifier": "EGG",
+                                "portionSize": "Serves 1"
+                              },
+                              "ribbon": {
+                                "text": "Bestseller",
+                                "textColor": "#ffffff",
+                                "topBackgroundColor": "#d53d4c",
+                                "bottomBackgroundColor": "#b02331"
+                              },
+                              "showImage": true,
+                              "itemBadge": {
+                                
+                              },
+                              "badgesV2": {
+                                
+                              },
+                              "isBestseller": true,
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.3",
+                                  "ratingCount": "3 ratings",
+                                  "ratingCountV2": "3"
+                                }
+                              }
+                            },
+                            "analytics": {
+                              
+                            },
+                            "hideRestaurantDetails": true
+                          }
+                        }
+                      ],
+                      "type": "CATEGORY_TYPE_RECOMMENDED"
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                      "title": "Grill Zone",
+                      "itemCards": [
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "26149032",
+                              "name": "Chicken Shawayi(1 Pc)",
+                              "category": "Grill Zone",
+                              "description": "An arabic delicacy of chicken which is a bit low on spices. The taste of this dish is from the special recipe of masala marinated over the chicken pieces.",
+                              "imageId": "i1k7o2jv30iaagnmyuua",
+                              "inStock": 1,
+                              "price": 16500,
+                              "variants": {
+                                "variantGroups": [
+                                  {
+                                    "groupId": "2387559",
+                                    "name": "Quantity",
+                                    "variations": [
+                                      {
+                                        "name": "Half",
+                                        "price": 10000,
+                                        "id": "8114330",
+                                        "inStock": 1,
+                                        "isEnabled": 1
+                                      },
+                                      {
+                                        "name": "Full",
+                                        "price": 33000,
+                                        "default": 1,
+                                        "id": "8114331",
+                                        "inStock": 1,
+                                        "isEnabled": 1
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              "variantsV2": {
+                                
+                              },
+                              "itemAttribute": {
+                                "vegClassifier": "NONVEG",
+                                "spiceLevel": "MEDIUMSPICY"
+                              },
+                              "ribbon": {
+                                "text": "Bestseller",
+                                "textColor": "#ffffff",
+                                "topBackgroundColor": "#d53d4c",
+                                "bottomBackgroundColor": "#b02331"
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {
+                                
+                              },
+                              "badgesV2": {
+                                
+                              },
+                              "isBestseller": true,
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "3.5",
+                                  "ratingCount": "42 ratings",
+                                  "ratingCountV2": "42"
+                                }
+                              }
+                            },
+                            "analytics": {
+                              
+                            },
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "26149047",
+                              "name": "Chicken Al Faham(1 Pc)",
+                              "category": "Grill Zone",
+                              "description": "A delightfully wholesome combo of succulent spicy and juicy full chicken alfaham; | Served with bone/boneless |",
+                              "imageId": "pzirzwctjwulxkj5gplc",
+                              "inStock": 1,
+                              "price": 15000,
+                              "variants": {
+                                "variantGroups": [
+                                  {
+                                    "groupId": "2387561",
+                                    "name": "Quantity",
+                                    "variations": [
+                                      {
+                                        "name": "Half",
+                                        "price": 10000,
+                                        "id": "8114335",
+                                        "inStock": 1,
+                                        "isEnabled": 1
+                                      },
+                                      {
+                                        "name": "Full",
+                                        "price": 33000,
+                                        "default": 1,
+                                        "id": "8114336",
+                                        "inStock": 1,
+                                        "isEnabled": 1
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              "variantsV2": {
+                                
+                              },
+                              "itemAttribute": {
+                                "vegClassifier": "NONVEG",
+                                "spiceLevel": "MEDIUMSPICY",
+                                "accompaniments": "Served with KUBOOS and CHUTNEY"
+                              },
+                              "ribbon": {
+                                "text": "Bestseller",
+                                "textColor": "#ffffff",
+                                "topBackgroundColor": "#d53d4c",
+                                "bottomBackgroundColor": "#b02331"
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {
+                                
+                              },
+                              "badgesV2": {
+                                
+                              },
+                              "isBestseller": true,
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "3.9",
+                                  "ratingCount": "48 ratings",
+                                  "ratingCountV2": "48"
+                                }
+                              }
+                            },
+                            "analytics": {
+                              
+                            },
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "26149056",
+                              "name": "Chicken Shawarma Roll",
+                              "category": "Grill Zone",
+                              "description": "Serves 1",
+                              "imageId": "htxhyoaqctmy6qobhmcy",
+                              "price": 8000,
+                              "variants": {
+                                
+                              },
+                              "variantsV2": {
+                                
+                              },
+                              "nextAvailableAtMessage": "Next available at 1 pm, tomorrow",
+                              "itemAttribute": {
+                                "vegClassifier": "NONVEG",
+                                "spiceLevel": "MEDIUMSPICY",
+                                "portionSize": "Serves 1"
+                              },
+                              "ribbon": {
+                                "text": "Bestseller",
+                                "textColor": "#ffffff",
+                                "topBackgroundColor": "#d53d4c",
+                                "bottomBackgroundColor": "#b02331"
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {
+                                
+                              },
+                              "badgesV2": {
+                                
+                              },
+                              "isBestseller": true,
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.3",
+                                  "ratingCount": "144 ratings",
+                                  "ratingCountV2": "144"
+                                }
+                              }
+                            },
+                            "analytics": {
+                              
+                            },
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "26149060",
+                              "name": "Chicken Shawarma Plate(1 Pc)",
+                              "category": "Grill Zone",
+                              "description": "A middle eastern dish in which thinly sliced cuts of chicken is served in a plate with two pieces of kubooz that has been steamed or heated.",
+                              "imageId": "dc4cbryjo721np0vyvwc",
+                              "price": 12000,
+                              "variants": {
+                                
+                              },
+                              "variantsV2": {
+                                
+                              },
+                              "nextAvailableAtMessage": "Next available at 1 pm, tomorrow",
+                              "itemAttribute": {
+                                "vegClassifier": "NONVEG",
+                                "spiceLevel": "MEDIUMSPICY"
+                              },
+                              "ribbon": {
+                                "text": "Bestseller",
+                                "textColor": "#ffffff",
+                                "topBackgroundColor": "#d53d4c",
+                                "bottomBackgroundColor": "#b02331"
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {
+                                
+                              },
+                              "badgesV2": {
+                                
+                              },
+                              "isBestseller": true,
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "3.8",
+                                  "ratingCount": "31 ratings",
+                                  "ratingCountV2": "31"
+                                }
+                              }
+                            },
+                            "analytics": {
+                              
+                            },
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "26149064",
+                              "name": "Chicken Shawarma Special Roll",
+                              "category": "Grill Zone",
+                              "description": "Serves 1",
+                              "imageId": "sz2bjpoecngomtqhlwfn",
+                              "price": 10000,
+                              "variants": {
+                                
+                              },
+                              "variantsV2": {
+                                
+                              },
+                              "nextAvailableAtMessage": "Next available at 1 pm, tomorrow",
+                              "itemAttribute": {
+                                "vegClassifier": "NONVEG",
+                                "spiceLevel": "MEDIUMSPICY",
+                                "portionSize": "Serves 1"
+                              },
+                              "ribbon": {
+                                "text": "Bestseller",
+                                "textColor": "#ffffff",
+                                "topBackgroundColor": "#d53d4c",
+                                "bottomBackgroundColor": "#b02331"
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {
+                                
+                              },
+                              "badgesV2": {
+                                
+                              },
+                              "isBestseller": true,
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.3",
+                                  "ratingCount": "72 ratings",
+                                  "ratingCountV2": "72"
+                                }
+                              }
+                            },
+                            "analytics": {
+                              
+                            },
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "26149069",
+                              "name": "Chicken Shawarma Special Plate(1 Pc)",
+                              "category": "Grill Zone",
+                              "description": "A middle eastern dish in which thinly sliced cuts of chicken is served in a plate with two pieces of kubooz that has been steamed or heated.",
+                              "imageId": "uqieufmx08tc6xy7cuzf",
+                              "price": 15000,
+                              "variants": {
+                                
+                              },
+                              "variantsV2": {
+                                
+                              },
+                              "nextAvailableAtMessage": "Next available at 1 pm, tomorrow",
+                              "itemAttribute": {
+                                "vegClassifier": "NONVEG",
+                                "spiceLevel": "MEDIUMSPICY"
+                              },
+                              "ribbon": {
+                                "text": "Bestseller",
+                                "textColor": "#ffffff",
+                                "topBackgroundColor": "#d53d4c",
+                                "bottomBackgroundColor": "#b02331"
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {
+                                
+                              },
+                              "badgesV2": {
+                                
+                              },
+                              "isBestseller": true,
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.0",
+                                  "ratingCount": "29 ratings",
+                                  "ratingCountV2": "29"
+                                }
+                              }
+                            },
+                            "analytics": {
+                              
+                            },
+                            "hideRestaurantDetails": true
+                          }
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                      "title": "Add On",
+                      "itemCards": [
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "26149096",
+                              "name": "Mayonnaise ",
+                              "category": "Add On",
+                              "description": "Serves 1",
+                              "inStock": 1,
+                              "price": 3000,
+                              "variants": {
+                                
+                              },
+                              "variantsV2": {
+                                
+                              },
+                              "itemAttribute": {
+                                "vegClassifier": "NONVEG",
+                                "portionSize": "Serves 1"
+                              },
+                              "ribbon": {
+                                
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {
+                                
+                              },
+                              "badgesV2": {
+                                
+                              },
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.0",
+                                  "ratingCount": "20 ratings",
+                                  "ratingCountV2": "20"
+                                }
+                              }
+                            },
+                            "analytics": {
+                              
+                            },
+                            "hideRestaurantDetails": true
+                          }
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.NestedItemCategory",
+                      "title": "Fresh Cream Cakes",
+                      "categories": [
+                        {
+                          "title": "Fresh Cream Cakes",
+                          "itemCards": [
+                            {
+                              "card": {
+                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                "info": {
+                                  "id": "60770354",
+                                  "name": "White Forest Fresh Cream Cake - 1 Kg",
+                                  "category": "Fresh Cream Cakes",
+                                  "imageId": "apduzhbqp9lzhokoalwf",
+                                  "inStock": 1,
+                                  "price": 58000,
+                                  "variants": {
+                                    
+                                  },
+                                  "variantsV2": {
+                                    
+                                  },
+                                  "itemAttribute": {
+                                    "vegClassifier": "EGG"
+                                  },
+                                  "ribbon": {
+                                    
+                                  },
+                                  "type": "ITEM",
+                                  "itemBadge": {
+                                    
+                                  },
+                                  "badgesV2": {
+                                    
+                                  },
+                                  "ratings": {
+                                    "aggregatedRating": {
+                                      "rating": "4.3",
+                                      "ratingCount": "3 ratings",
+                                      "ratingCountV2": "3"
+                                    }
+                                  }
+                                },
+                                "analytics": {
+                                  
+                                },
+                                "hideRestaurantDetails": true
+                              }
+                            },
+                            {
+                              "card": {
+                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                "info": {
+                                  "id": "60788199",
+                                  "name": "Black Forest Fresh Cream Cake - 1 Kg",
+                                  "category": "Fresh Cream Cakes",
+                                  "description": "Layers of chocolate sponge cake sandwiched between whipped cream and rich cherry filling.",
+                                  "imageId": "led1pjcx5xwdrhawsfxa",
+                                  "inStock": 1,
+                                  "price": 58000,
+                                  "variants": {
+                                    
+                                  },
+                                  "variantsV2": {
+                                    
+                                  },
+                                  "itemAttribute": {
+                                    "vegClassifier": "EGG"
+                                  },
+                                  "ribbon": {
+                                    "text": "Bestseller",
+                                    "textColor": "#ffffff",
+                                    "topBackgroundColor": "#d53d4c",
+                                    "bottomBackgroundColor": "#b02331"
+                                  },
+                                  "type": "ITEM",
+                                  "itemBadge": {
+                                    
+                                  },
+                                  "badgesV2": {
+                                    
+                                  },
+                                  "isBestseller": true,
+                                  "ratings": {
+                                    "aggregatedRating": {
+                                      "rating": "4.8",
+                                      "ratingCount": "8 ratings",
+                                      "ratingCountV2": "8"
+                                    }
+                                  }
+                                },
+                                "analytics": {
+                                  
+                                },
+                                "hideRestaurantDetails": true
+                              }
+                            },
+                            {
+                              "card": {
+                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                "info": {
+                                  "id": "68802670",
+                                  "name": "Butterscotch Fresh Cream Cake - 1 Kg",
+                                  "category": "Fresh Cream Cakes",
+                                  "description": "Serves 1 | 1Kg",
+                                  "imageId": "jhi8vneewvtafx5nbh2w",
+                                  "inStock": 1,
+                                  "price": 65000,
+                                  "variants": {
+                                    
+                                  },
+                                  "variantsV2": {
+                                    
+                                  },
+                                  "itemAttribute": {
+                                    "vegClassifier": "EGG",
+                                    "portionSize": "Serves 1"
+                                  },
+                                  "ribbon": {
+                                    
+                                  },
+                                  "type": "ITEM",
+                                  "itemBadge": {
+                                    
+                                  },
+                                  "badgesV2": {
+                                    
+                                  },
+                                  "ratings": {
+                                    "aggregatedRating": {
+                                      "rating": "2.7",
+                                      "ratingCount": "3 ratings",
+                                      "ratingCountV2": "3"
+                                    }
+                                  }
+                                },
+                                "analytics": {
+                                  
+                                },
+                                "hideRestaurantDetails": true
+                              }
+                            },
+                            {
+                              "card": {
+                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                "info": {
+                                  "id": "68802672",
+                                  "name": "Royal Butterscotch Fresh Cream Cake - 1 Kg",
+                                  "category": "Fresh Cream Cakes",
+                                  "description": "Serves 1 | 1pc",
+                                  "imageId": "wrf3ickur4woftlp5mic",
+                                  "inStock": 1,
+                                  "price": 70000,
+                                  "variants": {
+                                    
+                                  },
+                                  "variantsV2": {
+                                    
+                                  },
+                                  "itemAttribute": {
+                                    "vegClassifier": "EGG",
+                                    "portionSize": "Serves 1"
+                                  },
+                                  "ribbon": {
+                                    
+                                  },
+                                  "type": "ITEM",
+                                  "itemBadge": {
+                                    
+                                  },
+                                  "badgesV2": {
+                                    
+                                  },
+                                  "ratings": {
+                                    "aggregatedRating": {
+                                      "rating": "3.8",
+                                      "ratingCount": "6 ratings",
+                                      "ratingCountV2": "6"
+                                    }
+                                  }
+                                },
+                                "analytics": {
+                                  
+                                },
+                                "hideRestaurantDetails": true
+                              }
+                            },
+                            {
+                              "card": {
+                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                "info": {
+                                  "id": "68802673",
+                                  "name": "Honey Almond Fresh Cream Cake - 1 Kg",
+                                  "category": "Fresh Cream Cakes",
+                                  "description": "Serves 1 | 1Kg",
+                                  "inStock": 1,
+                                  "price": 70000,
+                                  "variants": {
+                                    
+                                  },
+                                  "variantsV2": {
+                                    
+                                  },
+                                  "itemAttribute": {
+                                    "vegClassifier": "EGG",
+                                    "portionSize": "Serves 1"
+                                  },
+                                  "ribbon": {
+                                    
+                                  },
+                                  "type": "ITEM",
+                                  "itemBadge": {
+                                    
+                                  },
+                                  "badgesV2": {
+                                    
+                                  },
+                                  "ratings": {
+                                    "aggregatedRating": {
+                                      
+                                    }
+                                  }
+                                },
+                                "analytics": {
+                                  
+                                },
+                                "hideRestaurantDetails": true
+                              }
+                            }
+                          ]
+                        },
+                        {
+                          "title": "Chocolate Cakes",
+                          "itemCards": [
+                            {
+                              "card": {
+                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                "info": {
+                                  "id": "68802674",
+                                  "name": "Vancho Fresh Cream Cake - 1 Kg",
+                                  "category": "Fresh Cream Cakes",
+                                  "imageId": "nqbdhlpwlgbx5frqx5xd",
+                                  "inStock": 1,
+                                  "price": 87000,
+                                  "variants": {
+                                    
+                                  },
+                                  "variantsV2": {
+                                    
+                                  },
+                                  "itemAttribute": {
+                                    "vegClassifier": "EGG"
+                                  },
+                                  "ribbon": {
+                                    
+                                  },
+                                  "type": "ITEM",
+                                  "itemBadge": {
+                                    
+                                  },
+                                  "badgesV2": {
+                                    
+                                  },
+                                  "ratings": {
+                                    "aggregatedRating": {
+                                      
+                                    }
+                                  }
+                                },
+                                "analytics": {
+                                  
+                                },
+                                "hideRestaurantDetails": true
+                              }
+                            },
+                            {
+                              "card": {
+                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                "info": {
+                                  "id": "68802675",
+                                  "name": "Swiss Chocolate Fresh Cream Cake - 1 Kg",
+                                  "category": "Fresh Cream Cakes",
+                                  "description": "Serves 1 | 1Kg",
+                                  "imageId": "bdgxdf4yeiskwpsdomcf",
+                                  "inStock": 1,
+                                  "price": 70000,
+                                  "variants": {
+                                    
+                                  },
+                                  "variantsV2": {
+                                    
+                                  },
+                                  "itemAttribute": {
+                                    "vegClassifier": "EGG",
+                                    "portionSize": "Serves 1"
+                                  },
+                                  "ribbon": {
+                                    
+                                  },
+                                  "type": "ITEM",
+                                  "itemBadge": {
+                                    
+                                  },
+                                  "badgesV2": {
+                                    
+                                  },
+                                  "ratings": {
+                                    "aggregatedRating": {
+                                      "rating": "4.7",
+                                      "ratingCount": "3 ratings",
+                                      "ratingCountV2": "3"
+                                    }
+                                  }
+                                },
+                                "analytics": {
+                                  
+                                },
+                                "hideRestaurantDetails": true
+                              }
+                            },
+                            {
+                              "card": {
+                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                "info": {
+                                  "id": "68802677",
+                                  "name": "Choco Truffle Fresh Cream Cake - 1 Kg",
+                                  "category": "Fresh Cream Cakes",
+                                  "description": "Serves 1 | 1Kg",
+                                  "imageId": "uscsutgjnxcqhqurmfp6",
+                                  "inStock": 1,
+                                  "price": 80000,
+                                  "variants": {
+                                    
+                                  },
+                                  "variantsV2": {
+                                    
+                                  },
+                                  "itemAttribute": {
+                                    "vegClassifier": "EGG",
+                                    "portionSize": "Serves 1"
+                                  },
+                                  "ribbon": {
+                                    
+                                  },
+                                  "type": "ITEM",
+                                  "itemBadge": {
+                                    
+                                  },
+                                  "badgesV2": {
+                                    
+                                  },
+                                  "ratings": {
+                                    "aggregatedRating": {
+                                      
+                                    }
+                                  }
+                                },
+                                "analytics": {
+                                  
+                                },
+                                "hideRestaurantDetails": true
+                              }
+                            },
+                            {
+                              "card": {
+                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                "info": {
+                                  "id": "68802678",
+                                  "name": "German Vancho Fresh Cream Cake - 1 Kg",
+                                  "category": "Fresh Cream Cakes",
+                                  "inStock": 1,
+                                  "price": 90000,
+                                  "variants": {
+                                    
+                                  },
+                                  "variantsV2": {
+                                    
+                                  },
+                                  "itemAttribute": {
+                                    "vegClassifier": "EGG"
+                                  },
+                                  "ribbon": {
+                                    
+                                  },
+                                  "type": "ITEM",
+                                  "itemBadge": {
+                                    
+                                  },
+                                  "badgesV2": {
+                                    
+                                  },
+                                  "ratings": {
+                                    "aggregatedRating": {
+                                      
+                                    }
+                                  }
+                                },
+                                "analytics": {
+                                  
+                                },
+                                "hideRestaurantDetails": true
+                              }
+                            }
+                          ]
+                        },
+                        {
+                          "title": "Special Cakes",
+                          "itemCards": [
+                            {
+                              "card": {
+                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                "info": {
+                                  "id": "68802679",
+                                  "name": "Redbee Fresh Cream Cake - 1 Kg",
+                                  "category": "Fresh Cream Cakes",
+                                  "inStock": 1,
+                                  "price": 90000,
+                                  "variants": {
+                                    
+                                  },
+                                  "variantsV2": {
+                                    
+                                  },
+                                  "itemAttribute": {
+                                    "vegClassifier": "EGG"
+                                  },
+                                  "ribbon": {
+                                    
+                                  },
+                                  "type": "ITEM",
+                                  "itemBadge": {
+                                    
+                                  },
+                                  "badgesV2": {
+                                    
+                                  },
+                                  "ratings": {
+                                    "aggregatedRating": {
+                                      
+                                    }
+                                  }
+                                },
+                                "analytics": {
+                                  
+                                },
+                                "hideRestaurantDetails": true
+                              }
+                            },
+                            {
+                              "card": {
+                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                "info": {
+                                  "id": "68802699",
+                                  "name": "Bubbly Fresh Cream Cake - 1 Kg",
+                                  "category": "Fresh Cream Cakes",
+                                  "inStock": 1,
+                                  "price": 85000,
+                                  "variants": {
+                                    
+                                  },
+                                  "variantsV2": {
+                                    
+                                  },
+                                  "itemAttribute": {
+                                    "vegClassifier": "EGG"
+                                  },
+                                  "ribbon": {
+                                    
+                                  },
+                                  "type": "ITEM",
+                                  "itemBadge": {
+                                    
+                                  },
+                                  "badgesV2": {
+                                    
+                                  },
+                                  "ratings": {
+                                    "aggregatedRating": {
+                                      
+                                    }
+                                  }
+                                },
+                                "analytics": {
+                                  
+                                },
+                                "hideRestaurantDetails": true
+                              }
+                            }
+                          ]
+                        },
+                        {
+                          "title": "Premium Cakes",
+                          "itemCards": [
+                            {
+                              "card": {
+                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                "info": {
+                                  "id": "68803166",
+                                  "name": "Rainbow Fresh Cream Cake - 1 Kg",
+                                  "category": "Fresh Cream Cakes",
+                                  "inStock": 1,
+                                  "isVeg": 1,
+                                  "price": 110000,
+                                  "variants": {
+                                    
+                                  },
+                                  "variantsV2": {
+                                    
+                                  },
+                                  "itemAttribute": {
+                                    "vegClassifier": "VEG"
+                                  },
+                                  "ribbon": {
+                                    
+                                  },
+                                  "type": "ITEM",
+                                  "itemBadge": {
+                                    
+                                  },
+                                  "badgesV2": {
+                                    
+                                  },
+                                  "ratings": {
+                                    "aggregatedRating": {
+                                      
+                                    }
+                                  }
+                                },
+                                "analytics": {
+                                  
+                                },
+                                "hideRestaurantDetails": true
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                      "title": "Indian Breads",
+                      "itemCards": [
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "26149042",
+                              "name": "Kuboos (1 Pc)",
+                              "category": "Indian Breads",
+                              "description": "Serves 1",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 1000,
+                              "variants": {
+                                
+                              },
+                              "variantsV2": {
+                                
+                              },
+                              "itemAttribute": {
+                                "vegClassifier": "VEG",
+                                "portionSize": "Serves 1"
+                              },
+                              "ribbon": {
+                                
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {
+                                
+                              },
+                              "badgesV2": {
+                                
+                              },
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.2",
+                                  "ratingCount": "33 ratings",
+                                  "ratingCountV2": "33"
+                                }
+                              }
+                            },
+                            "analytics": {
+                              
+                            },
+                            "hideRestaurantDetails": true
+                          }
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                      "title": "Pastries",
+                      "itemCards": [
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "68799125",
+                              "name": "Honey Almond Pastry ( 1 Pc )",
+                              "category": "Pastries",
+                              "imageId": "tazulrtpgveeulq3odqi",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 6500,
+                              "variants": {
+                                
+                              },
+                              "variantsV2": {
+                                
+                              },
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+                                
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {
+                                
+                              },
+                              "badgesV2": {
+                                
+                              },
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.8",
+                                  "ratingCount": "4 ratings",
+                                  "ratingCountV2": "4"
+                                }
+                              }
+                            },
+                            "analytics": {
+                              
+                            },
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "68799122",
+                              "name": "Blueberry Pastry",
+                              "category": "Pastries",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 6500,
+                              "variants": {
+                                
+                              },
+                              "variantsV2": {
+                                
+                              },
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+                                
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {
+                                
+                              },
+                              "badgesV2": {
+                                
+                              },
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.5",
+                                  "ratingCount": "4 ratings",
+                                  "ratingCountV2": "4"
+                                }
+                              }
+                            },
+                            "analytics": {
+                              
+                            },
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "68799193",
+                              "name": "Choco Chip Pastry",
+                              "category": "Pastries",
+                              "description": "Serves 1 | 1pc",
+                              "imageId": "akl85bmgmfgiipdviq1f",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 6500,
+                              "variants": {
+                                
+                              },
+                              "variantsV2": {
+                                
+                              },
+                              "itemAttribute": {
+                                "vegClassifier": "VEG",
+                                "portionSize": "Serves 1"
+                              },
+                              "ribbon": {
+                                "text": "Bestseller",
+                                "textColor": "#ffffff",
+                                "topBackgroundColor": "#d53d4c",
+                                "bottomBackgroundColor": "#b02331"
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {
+                                
+                              },
+                              "badgesV2": {
+                                
+                              },
+                              "isBestseller": true,
+                              "ratings": {
+                                "aggregatedRating": {
+                                  
+                                }
+                              }
+                            },
+                            "analytics": {
+                              
+                            },
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "68802690",
+                              "name": "White Forest Pastry ( 1 Pc )",
+                              "category": "Pastries",
+                              "inStock": 1,
+                              "price": 6000,
+                              "variants": {
+                                
+                              },
+                              "variantsV2": {
+                                
+                              },
+                              "itemAttribute": {
+                                "vegClassifier": "EGG"
+                              },
+                              "ribbon": {
+                                
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {
+                                
+                              },
+                              "badgesV2": {
+                                
+                              },
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.0",
+                                  "ratingCount": "4 ratings",
+                                  "ratingCountV2": "4"
+                                }
+                              }
+                            },
+                            "analytics": {
+                              
+                            },
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "68799123",
+                              "name": "Strawberry Pastry",
+                              "category": "Pastries",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 6500,
+                              "variants": {
+                                
+                              },
+                              "variantsV2": {
+                                
+                              },
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+                                
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {
+                                
+                              },
+                              "badgesV2": {
+                                
+                              },
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "3.3",
+                                  "ratingCount": "3 ratings",
+                                  "ratingCountV2": "3"
+                                }
+                              }
+                            },
+                            "analytics": {
+                              
+                            },
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "68802680",
+                              "name": "Bubbly Pastry",
+                              "category": "Pastries",
+                              "description": "Serves 1 | 1pc",
+                              "inStock": 1,
+                              "price": 8500,
+                              "variants": {
+                                
+                              },
+                              "variantsV2": {
+                                
+                              },
+                              "itemAttribute": {
+                                "vegClassifier": "EGG",
+                                "portionSize": "Serves 1"
+                              },
+                              "ribbon": {
+                                
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {
+                                
+                              },
+                              "badgesV2": {
+                                
+                              },
+                              "ratings": {
+                                "aggregatedRating": {
+                                  
+                                }
+                              }
+                            },
+                            "analytics": {
+                              
+                            },
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "68802683",
+                              "name": "Redbee Pastry",
+                              "category": "Pastries",
+                              "description": "Serves 1 | 1pc",
+                              "inStock": 1,
+                              "price": 8500,
+                              "variants": {
+                                
+                              },
+                              "variantsV2": {
+                                
+                              },
+                              "itemAttribute": {
+                                "vegClassifier": "EGG",
+                                "portionSize": "Serves 1"
+                              },
+                              "ribbon": {
+                                
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {
+                                
+                              },
+                              "badgesV2": {
+                                
+                              },
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.7",
+                                  "ratingCount": "3 ratings",
+                                  "ratingCountV2": "3"
+                                }
+                              }
+                            },
+                            "analytics": {
+                              
+                            },
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "68802686",
+                              "name": "Rainbow Pastry",
+                              "category": "Pastries",
+                              "description": "Serves 1 | 1pc",
+                              "imageId": "wzo3tibuudiy7geetv1i",
+                              "inStock": 1,
+                              "price": 12000,
+                              "variants": {
+                                
+                              },
+                              "variantsV2": {
+                                
+                              },
+                              "itemAttribute": {
+                                "vegClassifier": "EGG",
+                                "portionSize": "Serves 1"
+                              },
+                              "ribbon": {
+                                
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {
+                                
+                              },
+                              "badgesV2": {
+                                
+                              },
+                              "ratings": {
+                                "aggregatedRating": {
+                                  
+                                }
+                              }
+                            },
+                            "analytics": {
+                              
+                            },
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "68802687",
+                              "name": "Vancho Pastry",
+                              "category": "Pastries",
+                              "description": "Serves 1 | 1pc",
+                              "inStock": 1,
+                              "price": 8000,
+                              "variants": {
+                                
+                              },
+                              "variantsV2": {
+                                
+                              },
+                              "itemAttribute": {
+                                "vegClassifier": "EGG",
+                                "portionSize": "Serves 1"
+                              },
+                              "ribbon": {
+                                "text": "Bestseller",
+                                "textColor": "#ffffff",
+                                "topBackgroundColor": "#d53d4c",
+                                "bottomBackgroundColor": "#b02331"
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {
+                                
+                              },
+                              "badgesV2": {
+                                
+                              },
+                              "isBestseller": true,
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.4",
+                                  "ratingCount": "5 ratings",
+                                  "ratingCountV2": "5"
+                                }
+                              }
+                            },
+                            "analytics": {
+                              
+                            },
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "68802688",
+                              "name": "Red Velvet Pastry",
+                              "category": "Pastries",
+                              "description": "Serves 1 | 1pc",
+                              "imageId": "fngi7d08eas9vnox9yhr",
+                              "inStock": 1,
+                              "price": 8000,
+                              "variants": {
+                                
+                              },
+                              "variantsV2": {
+                                
+                              },
+                              "itemAttribute": {
+                                "vegClassifier": "EGG",
+                                "portionSize": "Serves 1"
+                              },
+                              "ribbon": {
+                                
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {
+                                
+                              },
+                              "badgesV2": {
+                                
+                              },
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.7",
+                                  "ratingCount": "3 ratings",
+                                  "ratingCountV2": "3"
+                                }
+                              }
+                            },
+                            "analytics": {
+                              
+                            },
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "68802685",
+                              "name": "Choco Truffle Pastry (1 Pc )",
+                              "category": "Pastries",
+                              "imageId": "hezsdezf8vg5ckqghcil",
+                              "inStock": 1,
+                              "price": 7500,
+                              "variants": {
+                                
+                              },
+                              "variantsV2": {
+                                
+                              },
+                              "itemAttribute": {
+                                "vegClassifier": "EGG"
+                              },
+                              "ribbon": {
+                                
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {
+                                
+                              },
+                              "badgesV2": {
+                                
+                              },
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.0",
+                                  "ratingCount": "13 ratings",
+                                  "ratingCountV2": "13"
+                                }
+                              }
+                            },
+                            "analytics": {
+                              
+                            },
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "68802689",
+                              "name": "Butterscotch Pastry",
+                              "category": "Pastries",
+                              "description": "Serves 1 | 1pc",
+                              "inStock": 1,
+                              "price": 6500,
+                              "variants": {
+                                
+                              },
+                              "variantsV2": {
+                                
+                              },
+                              "itemAttribute": {
+                                "vegClassifier": "EGG",
+                                "portionSize": "Serves 1"
+                              },
+                              "ribbon": {
+                                
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {
+                                
+                              },
+                              "badgesV2": {
+                                
+                              },
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.2",
+                                  "ratingCount": "5 ratings",
+                                  "ratingCountV2": "5"
+                                }
+                              }
+                            },
+                            "analytics": {
+                              
+                            },
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "68802691",
+                              "name": "Black Forest Pastry",
+                              "category": "Pastries",
+                              "description": "Serves 1 | 1pc",
+                              "imageId": "bbrppujy4mlcxbyn5ysh",
+                              "inStock": 1,
+                              "price": 6000,
+                              "variants": {
+                                
+                              },
+                              "variantsV2": {
+                                
+                              },
+                              "itemAttribute": {
+                                "vegClassifier": "EGG",
+                                "portionSize": "Serves 1"
+                              },
+                              "ribbon": {
+                                "text": "Bestseller",
+                                "textColor": "#ffffff",
+                                "topBackgroundColor": "#d53d4c",
+                                "bottomBackgroundColor": "#b02331"
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {
+                                
+                              },
+                              "badgesV2": {
+                                
+                              },
+                              "isBestseller": true,
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.3",
+                                  "ratingCount": "3 ratings",
+                                  "ratingCountV2": "3"
+                                }
+                              }
+                            },
+                            "analytics": {
+                              
+                            },
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "68799119",
+                              "name": "Mango Pastry      ",
+                              "category": "Pastries",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 6500,
+                              "variants": {
+                                
+                              },
+                              "variantsV2": {
+                                
+                              },
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+                                
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {
+                                
+                              },
+                              "badgesV2": {
+                                
+                              },
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.0",
+                                  "ratingCount": "3 ratings",
+                                  "ratingCountV2": "3"
+                                }
+                              }
+                            },
+                            "analytics": {
+                              
+                            },
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "68799120",
+                              "name": "Mango Pastry",
+                              "category": "Pastries",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 6500,
+                              "variants": {
+                                
+                              },
+                              "variantsV2": {
+                                
+                              },
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+                                
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {
+                                
+                              },
+                              "badgesV2": {
+                                
+                              },
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.0",
+                                  "ratingCount": "3 ratings",
+                                  "ratingCountV2": "3"
+                                }
+                              }
+                            },
+                            "analytics": {
+                              
+                            },
+                            "hideRestaurantDetails": true
+                          }
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.RestaurantLicenseInfo",
+                      "type": "FSSAI",
+                      "imageId": "fssai_final_edss9i",
+                      "text": [
+                        "License No. 11318001001422"
+                      ]
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.RestaurantAddress",
+                      "name": "Bake World Restaurant",
+                      "area": "Kulathoor",
+                      "completeAddress": "MH Plaza, Opp IOC Pump,, Vadakkumbhagam, Kazhakkoottam, Kerala 695301, India"
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        }
+      }
+    ],
+    "firstOffsetRequest": true
+  },
+  "tid": "b840a2d5-3fbc-4b3d-bde4-22740b294687",
+  "sid": "61979f70-8339-4da6-bdb5-5990650c67d1",
+  "deviceId": "bd3d26ea-0a22-f56c-39b2-e4f3b638c272",
+  "csrfToken": "4DtSOlsL0UMg-stI2BAWvyxMkveKclr0UhaDiSNo"
+}

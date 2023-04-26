@@ -1,0 +1,7 @@
+{} //? .barnelrc should not be empty. therefore use the brackets
+
+// {
+//   "plugins": [["transform-remove-console", { "exclude": ["error", "warn"] }]]
+// }  //! this will hide the console log
+
+

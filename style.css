@@ -1,0 +1,64 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+.logo {
+  width: 100px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid black;
+}
+
+.nav-items > ul {
+  list-style-type: none;
+  display: flex;
+}
+
+.nav-items > ul > li {
+  padding: 10px;
+}
+
+.card {
+  width: 200px;
+  padding: 10px;
+  border: 1px solid black;
+  margin: 10px;
+  word-wrap: break-word;    
+}
+
+.card > img {
+  width: 100%;
+}
+
+.restraunt-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.section1{
+  border: 1px solid black;
+  margin: 20px;
+  padding: 20px;
+}
+
+.user{
+  margin: 10px;
+}
+
+
+.menu{
+  
+ 
+  display: flex;
+ }
+
+ .resPic{
+  width: 250px;
+  height: 250px
+ }
