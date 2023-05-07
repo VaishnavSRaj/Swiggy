@@ -4,11 +4,12 @@ import ShimmerUI from "./ShimmerUI";
 import { Link } from "react-router-dom";
 import { filterData } from "../utils/helper";
 import useOnline from "../utils/useOnline";
+import SkeletonProfile from "../skeletons/SkeletonProfile";
 
 
 const Body = () => {
   const [searchTxt, setSearchTxt] = useState([]);
-  const [Allrestaurants, setAllRestaurant] = useState([]);
+  const [Allrestaurants, setAllRestaurant] = useState(null);
   const [filteredRestaurants, setFilteredRestaurants] = useState([]);
 
   useEffect(() => {
@@ -41,9 +42,10 @@ const Body = () => {
   if (!online) {
     return <h1> No Internet Connection ⚠️</h1>;
   }
-  return Allrestaurants.length === 0 ? (
-    <ShimmerUI />
-  ) : (
+  // return Allrestaurants.length === 0 ? (
+  //   <SkeletonProfile/>
+  // ) : (.
+  return(
     <>
       <div className="search-container">
         <input
@@ -77,6 +79,7 @@ const Body = () => {
             </Link>
           );
         })}
+        {!Allrestaurants && [1, 2, 3, 4, 5 ,6,7,8,9,10,11,12].map((n) =><SkeletonProfile key={n}  theme={""}/>)}
       </div>
     </>
   );
